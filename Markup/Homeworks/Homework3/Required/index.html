@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+        <link media="all" href="css/style.css" rel="stylesheet">  
+        <meta name="viewport" content="width=device-width, 
+        initial-scale=1.0, 
+        maximum-scale=1.0, 
+        user-scalable=no">
+    </head>
+    <body>
+        <div class="wrapper">
+            <article class="only">
+                <img class="first-image" src="img/a-level-ico.png" alt="A-level image">
+                
+                <p>Алиса хочет отправить важное сообщение Бобу</p>
+                <p>Сообщение a = ( a<sub class="blue">1</sub>, ..., a<sub class="blue">n</sub> ) является последовательностью положительных чисел ( символов )</p>
+                <p>Для сжатия сообщения Алиса хочет использовать <span class="special" title="двоичный префиксно-свободный код">двоичный код Хаффмана</span></p>
+                <p>Напомним, что двоичный код Хаффмана, или <b><i>двоичный префиксно-свободный код</i></b> — это функция <span class="blue">f</span> , 
+                   которая сопоставляет каждому символу сообщения двоичные строки (то есть строки, 
+                   состоящие только из символов «0» и «1») таким образом, 
+                   что ни для какой пары различных символов a<sub class="blue">i</sub> и a<sub class="blue">j</sub> строка <span class="blue">f</span> ( a<sub class="blue">i</sub> ) 
+                   не является префиксом <span class="blue">f</span> ( a<sub class="blue">j</sub> ) (и наоборот)
+                        
+                   Результатом кодирования сообщения a<sub class="blue">1</sub> , a<sub class="blue">2</sub> , ..., a<sub class="blue">n</sub> является конкатенация кодов отдельных символов, 
+                   то есть строка <span class="blue">f</span> ( a<sub class="blue">1</sub> ) <span class="blue">f</span> ( a<sub class="blue">2</sub> )... <span class="blue">f</span> ( a<sub class="blue">n</sub> )</p>  
+                <p>Коды Хаффмана удобны тем, что закодированное сообщение можно легко и однозначно декодировать, если знать код</p>
+                <img class="second-image" src="img/a-level-ico.png" alt="A-level image">
+                <p>Код обычно выбирается таким образом, чтобы минимизировать суммарную длину закодированного сообщения, 
+                   то есть длину строки <span class="blue">f</span> ( a<sub class="blue">1</sub> ) <span class="blue">f</span> ( a<sub class="blue">2</sub> )... <span class="blue">f</span> ( a<sub class="blue">n</sub> )</p>
+                        
+                <p>Алиса не хочет посылать сообщение целиком, поскольку это слишком рискованно</p>
+                        
+                <p>Вместо этого она выбрала несколько частей сообщения и хочет отправить их по отдельности</p>
+                        
+                <p>Для каждой выбранной подстроки a<sub class="blue">ki</sub>... a<sub class="blue">mi</sub> она хочет найти минимальную длину этой подстроки, закодированной по Хаффману</p>
+                        
+                <P>Помогите ей с этой задачей</p>
+            </article>
+        </div>
+    </body>
+</html>

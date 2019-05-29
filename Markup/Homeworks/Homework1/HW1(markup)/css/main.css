@@ -1,0 +1,51 @@
+body
+{
+    font-family: Arial, sans-serif;
+    background-color:#f6f6f6;
+    width: 315px
+}
+#img1
+{
+    width: 100%
+}
+time
+{
+    color: #1b90cf;
+    font-size: 12px
+}
+h1
+{
+    color: #1b90cf;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 700
+}
+main{
+    padding-left: 17px;
+    padding-top: 10px
+}
+.text
+{
+    color:#575756;
+    font-size: 15px;
+    line-height: 23px
+
+}
+#link1
+{
+    color: #1b90cf
+}
+button
+{
+    color: #ffffff;
+    background-color: #1b90cf;
+    font-weight: 700;
+    height: 50px;
+    width: 210px;
+    border: none;
+    letter-spacing: 1px
+}
+a
+{
+    text-decoration: underline
+}

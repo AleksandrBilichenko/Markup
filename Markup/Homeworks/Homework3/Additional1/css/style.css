@@ -1,0 +1,63 @@
+*,
+*:before,
+*:after {
+box-sizing: border-box;
+}
+
+html {
+    font-family: 'Vollkorn', serif;
+    background-color: #fff;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+.wrapper {
+    position: relative;
+    max-width: 750px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #0d5825;
+}
+q {
+    quotes: '\201C' '\201D';
+}
+.quote {
+    padding: 100px 0;
+}
+
+.ace1 {
+    max-width: 150px;
+    transform: rotate(-25deg);
+    position: relative;
+    left: 100px;
+    
+}
+.ace2 {
+    max-width: 150px;
+    transform: rotate(-10deg);
+    position: relative;
+    
+}
+.ace3 {
+    max-width: 150px;
+    transform: rotate(15deg);
+    position: relative;
+    right: 100px;
+    top: 20px;
+    
+}
+.three-cards {
+    margin-bottom: 100px
+}
+.ace1:hover {
+    transition: transform 0.5s ease;
+    transform: translateY(-30px) rotate(-25deg)
+}
+.ace2:hover {
+    transition: transform 0.5s ease;
+    transform: translateY(-30px) rotate(-10deg)
+}
+.ace3:hover {
+    transition: transform 0.5s ease;
+    transform: translateY(-30px) rotate(15deg)
+}

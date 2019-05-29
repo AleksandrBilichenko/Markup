@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link media="all" href="css/style.css" rel="stylesheet">  
+        <meta name="viewport" content="width=device-width, 
+        initial-scale=1">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="form">
+                <label class="surname">
+                    <span class="red-text">CONFIRMEZ VOTRE NOM*</span><br>
+                    <input type="text" class="line-input" placeholder="Chatelet">
+                </label>
+                <label class="name">
+                    <span class="just-text">PRÉNOM*</span> <br>
+                    <input type="text" class="line-input" placeholder="Elena">
+                </label>
+                <label class="email">
+                    <span class="just-text">E-mail*</span>
+                    <input type="email" class="line-input" placeholder="elchatelet@mail.com">
+                </label>
+                <label class="object">
+                    <span class="just-text">OBJET*</span> <br>
+                    <select id="profil">
+                            <option value="" style="display:none">Demande d'informations sur la formule personnalis</option>
+                            <option value="Profil-personnel">Profil personnel</option>
+                            <option value="Profil-d'entreprise">Profil d'entreprise</option>
+                            <option value="L'invité">L'invité</option>
+                            <option value="Compte-premium">Compte premium</option>
+                    </select>
+                    <span class="icon-angle-down"></span>
+                </label>
+                <label class="message">
+                        <span class="just-text">MESSAGE*</span>
+                        <textarea id="txt" placeholder="Rédigez votre message..."></textarea>
+                </label>
+
+
+                <label class="contain"> En soumettant ce formulaire, j'accepte que les informations saisies soient exploitées dans le cadre de la relation commerciale Wedivorce
+                    <input type="checkbox" id="check" class="check" value="Yes">
+                    <span class="mark"></span>
+                </label>
+                <div class="red-text down-text">*VEUILLEZ REMPLIR LES CHAMPS OBLIGATOIRES</div>
+            </div>
+            <div class="button-container">
+                <button class="envoyer"><a href="#">ENVOYER</a></button>
+            </div>
+            <div class="icon-box">
+                <a href="https://uk-ua.facebook.com/" target="_blank"><div class="img facebook-icon"></div></a>
+                <a href="https://www.instagram.com/" target="_blank"><div class="img instagram-icon"></div></a> 
+                <a href="https://www.linkedin.com/" target="_blank"><div class="img linkedin-icon"></div></a> 
+                <a href="https://youtube.com/" target="_blank"><div class="img youtube-icon"></div></a> 
+            </div>
+        </div>
+    </body>
+</html>

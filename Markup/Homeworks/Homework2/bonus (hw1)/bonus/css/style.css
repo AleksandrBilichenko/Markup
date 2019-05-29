@@ -1,0 +1,92 @@
+:root
+{
+    --nunito: 'Nunito Sans', sans-serif;
+    --osw: 'Oswald', sans-serif;
+}
+html
+{
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+background-color: #fff;
+}
+.container
+{
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+.time
+{
+    font-family: var(--nunito);
+    color: #969696;
+    font-size: 12px;
+}
+
+.gray
+{
+    color: #d9d9d9;
+}
+
+h1
+{
+    font-family: var(--osw);
+    font-weight: 800;
+    color: #686868;
+    font-size: 24px;
+}
+
+article > p
+{
+    width: 560px;
+    height: 100%;
+    font-family: var(--nunito);
+    font-size: 14px;
+    color: #8a8a8a;
+    line-height: 25px;
+}
+.orange
+{
+    color: #ff9016;
+    font-family: var(--nunito);
+    font-size: 17px;
+    font-weight: 800;
+}
+ul
+{
+    list-style-type: none;
+    padding: 0.5em 1.55em;
+}
+.block
+{
+    background-color: #f3f4f4;
+    width: 300px;
+    margin: 3em 0 0 0;
+    padding: 0 0 1em 0;
+    
+}
+li > h1
+{
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0.5em 0;
+}
+li > p
+{
+    margin: 0.1em 0;
+    line-height: 12px;
+}
+img
+{
+    margin: 2em 0 0 0;
+}
+.underlined
+{
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid orange;
+}
+a
+{
+    text-decoration: none;
+}
+

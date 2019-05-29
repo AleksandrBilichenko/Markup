@@ -1,0 +1,227 @@
+*,
+*:before,
+*:after {
+box-sizing: border-box;
+}
+
+  @font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?2fbl1n');
+    src:  url('../fonts/icomoon.eot?2fbl1n#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?2fbl1n') format('truetype'),
+      url('../fonts/icomoon.woff?2fbl1n') format('woff'),
+      url('../fonts/icomoon.svg?2fbl1n#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    /* speak: none; */
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-check:before {
+    content: "\f00c";
+  }
+  .icon-angle-down:before {
+    content: "\f107";
+  }
+
+  
+
+html {
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+}
+
+.wrapper {
+    width: 740px;
+    margin: 0px auto;
+    padding-top: 40px;
+}
+
+.form {
+  border-bottom: 2px solid #ebebeb;
+}
+.red-text {
+    color: #e16e69;
+    font-weight: 700;
+}
+.line-input {
+    width: 740px;
+    height: 55px;
+    background-color: #ebebeb;
+    color: #000; 
+    padding: 10px 20px;;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-family: serif;
+}
+input::-moz-placeholder { color: #000; }
+input::-webkit-input-placeholder { color: #000; }
+
+.just-text {
+    font-weight: 700;
+}
+#profil {
+    width: 740px;
+    height: 55px;
+    background-color: #ebebeb;
+    color: #000; 
+    padding: 10px 20px;;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-family: serif;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+.object {
+    display: block;
+}
+
+.icon-angle-down:before {
+    content: "\f107";
+    font-size: 32px;
+    position: relative;
+    left: 700px;
+    bottom: 68px;
+  }
+
+#txt {
+    width: 740px;
+    height: 150px;
+    background-color: #ebebeb;
+    color: #000; 
+    padding: 10px 20px;;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    resize: none;
+    font-family: serif;
+}
+textarea::-moz-placeholder { color: #000; }
+textarea::-webkit-input-placeholder { color: #000; }
+
+.contain {
+  font-family: serif;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.contain .check {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+.mark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ebebeb;
+}
+.contain:hover .check ~ .mark {
+  background-color: #ccc;
+}
+.contain .check:checked ~ .mark {
+  background-color: darkgray;
+}
+.mark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.contain .check:checked ~ .mark:after {
+  display: block;
+}
+.contain .mark:after{
+  left: 7px;
+  top: 4px;
+  width: 10px;
+  height: 17px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+}
+
+.down-text{
+  font-size: 16px;
+  margin: 50px 0 20px;
+}
+.button-container {
+  display: block; 
+  width: 740px;
+  height: 150px;
+  position: relative;
+}
+.envoyer {
+  position: relative;
+  left: 592px;
+  top: 0;
+  margin-top: 20px;
+  background-color: #e16e69;
+  border: 5px solid #e4655e;
+  border-radius: 40px;
+  padding: 5px 35px;
+}
+.envoyer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+.icon-box{
+  display: flex;
+  width: 140px;
+  height: 140px;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+.img {
+  margin: 5px;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.facebook-icon {
+  background-image: url("../img/fb.png");
+}
+.instagram-icon {
+  background-image: url("../img/insta.png");
+}
+.linkedin-icon {
+  background-image: url("../img/linked.png");
+}
+.youtube-icon {
+  background-image: url("../img/tube.png");
+}

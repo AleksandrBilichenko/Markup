@@ -1,0 +1,39 @@
+:root
+{
+--blockBackgroundColor: rgba(236, 240, 241, 0.7);
+--lineColor: rgb(214, 212, 212);
+}
+html
+{
+    font-family: Arial, sans-serif;
+    font-size: 16px
+}
+h1
+{
+    font-size: 2em
+}
+.mainBorder
+{
+    width: 800px;
+    height: 100%;
+    border-width: thin;
+    border-style: solid;
+    border-color: var(--lineColor);
+    padding: 1em; 
+    margin: 0 auto;
+}
+.main
+{
+    border-bottom: 1px solid;
+    border-bottom-color: var(--lineColor);
+    line-height: 2em
+}
+.container
+{
+    background-color: var(--blockBackgroundColor);
+    padding: 0.5em 1em 0.1em 1em;
+}
+.italic
+{
+    font-style: italic
+}

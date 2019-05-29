@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+ html {
+ 	font-family: 'Open Sans', sans-serif;
+ }
+ .container {
+ 	max-width: 1140px;
+ 	margin: 0 auto;
+ }
+
+.main-header {
+	min-height: 418px;
+	width: auto;
+	position: relative;
+}
+
+.header-descripted {
+	display: block;
+	position: relative;
+	background-color: rgba(0, 159, 227, 0.68);
+	z-index: 1;
+	font-size: 36px;
+	line-height: 45px;
+	font-weight: 300;
+	letter-spacing: 0.12em;
+	width: 50%;
+	height: 40%;
+	padding: 48px;
+	top: 110px;
+
+}
+
+.header-text {
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+}
+.article-header {
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 300;
+	letter-spacing: 0.12em;
+	color: rgba(0, 0, 0, 0.87);
+	margin: 10px 25px;
+
+}
+.article-text {
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 300;
+	letter-spacing: 0;
+	color: rgba(0, 0, 0, 0.57);
+	margin: 10px 25px;
+}
+
+.data {
+	font-size: 15px;
+	line-height: 16px;
+	font-weight: 300;
+	letter-spacing: 0.12em;
+	color: #fff;
+	margin: 10px 25px;
+}
+.extra-header {
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 300;
+	letter-spacing: 0.12em;
+	color: rgba(255, 255, 255, 0.7);
+	text-transform: uppercase;
+	margin: 10px 25px;
+}
+.white {
+	color: white;
+}
+.special-white {
+	color: rgba(255, 255, 255, 0.7);
+}
